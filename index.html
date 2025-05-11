@@ -1,79 +1,395 @@
 
-        <html>
-        <head>
-            <title>Live Reku Sell Prices</title>
-            <meta http-equiv="refresh" content="30">
-            <style>
-                body {
-                    font-family: Arial, sans-serif;
-                    text-align: center;
-                    padding-top: 50px;
-                }
-                table {
-                    margin: 0 auto;
-                    border-collapse: collapse;
-                    width: 80%;
-                }
-                th, td {
-                    border: 1px solid #ddd;
-                    padding: 8px;
-                }
-                th {
-                    background-color: #f2f2f2;
-                }
-            </style>
-        </head>
-        <body>
-            <h1>Live Reku Sell Prices</h1>
-            <p>Updated every 30 seconds</p>
-            <p>Last updated: 2025-05-11 22:40:24</p>
-            <table>
-                <tr><th>Coin Code</th><th>Sell Price</th></tr>
-                <tr><td>BTC</td><td>Rp 1.728.530.000</td></tr>
-<tr><td>AAVE</td><td>Rp 3.640.000</td></tr>
-<tr><td>ADA</td><td>Rp 13.300</td></tr>
-<tr><td>AK12</td><td>Rp 445</td></tr>
-<tr><td>ANA</td><td>Rp 760</td></tr>
-<tr><td>ARB</td><td>Rp 7.530</td></tr>
-<tr><td>AVAX</td><td>Rp 411.000</td></tr>
-<tr><td>BCH</td><td>Rp 6.795.000</td></tr>
-<tr><td>BNB</td><td>Rp 10.860.000</td></tr>
-<tr><td>BOME</td><td>Rp 37</td></tr>
-<tr><td>CYBER</td><td>Rp 26.800</td></tr>
-<tr><td>DOGE</td><td>Rp 3.850</td></tr>
-<tr><td>DOT</td><td>Rp 84.500</td></tr>
-<tr><td>ETH</td><td>Rp 41.140.000</td></tr>
-<tr><td>HBAR</td><td>Rp 3.400</td></tr>
-<tr><td>HOT</td><td>N/A</td></tr>
-<tr><td>KAS</td><td>Rp 1.780</td></tr>
-<tr><td>LINK</td><td>Rp 278.500</td></tr>
-<tr><td>LTC</td><td>Rp 1.670.000</td></tr>
-<tr><td>MIRA</td><td>Rp 655</td></tr>
-<tr><td>ORDI</td><td>Rp 175.000</td></tr>
-<tr><td>PEPE</td><td>N/A</td></tr>
-<tr><td>POL</td><td>Rp 4.300</td></tr>
-<tr><td>RENDER</td><td>Rp 86.000</td></tr>
-<tr><td>S</td><td>Rp 9.760</td></tr>
-<tr><td>SAND</td><td>Rp 5.920</td></tr>
-<tr><td>SHIB</td><td>N/A</td></tr>
-<tr><td>SOL</td><td>Rp 2.860.000</td></tr>
-<tr><td>SUI</td><td>Rp 65.800</td></tr>
-<tr><td>SUN</td><td>Rp 320</td></tr>
-<tr><td>SUSHI</td><td>Rp 13.500</td></tr>
-<tr><td>TAO</td><td>Rp 7.490.000</td></tr>
-<tr><td>TIA</td><td>Rp 53.500</td></tr>
-<tr><td>TRX</td><td>Rp 4.350</td></tr>
-<tr><td>UMA</td><td>Rp 23.000</td></tr>
-<tr><td>USDC</td><td>Rp 16.610</td></tr>
-<tr><td>USDT</td><td>Rp 16.555</td></tr>
-<tr><td>WIF</td><td>Rp 15.000</td></tr>
-<tr><td>WLD</td><td>Rp 20.800</td></tr>
-<tr><td>XLM</td><td>Rp 5.070</td></tr>
-<tr><td>XRP</td><td>Rp 39.300</td></tr>
-<tr><td>YFI</td><td>Rp 104.700.000</td></tr>
-<tr><td>DRX</td><td>Rp 0</td></tr>
-
-            </table>
-        </body>
-        </html>
+    <html>
+    <head>
+        <title>Crypto Arbitrage Explorer</title>
+        <meta http-equiv="refresh" content="30">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                padding-top: 50px;
+            }
+            table {
+                margin: 0 auto;
+                border-collapse: collapse;
+                width: 90%;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Crypto Arbitrage Explorer</h1>
+        <p><strong>Updated every 30 seconds</strong></p>
+        <p>Last updated: 2025-05-11 22:40:44</p>
+        <table>
+            <tr>
+                <th>Coin Name</th>
+                <th>Price in Reku</th>
+                <th>Price in Indodax</th>
+                <th>Estimation Gas Fee</th>
+                <th>Estimation Transaction Time</th>
+                <th>Arbitrage Action</th>
+                <th>Potential Gain %</th>
+            </tr>
+            
+            <tr>
+                <td>BTC</td>
+                <td>Rp 1.728.810.000</td>
+                <td>Rp 1.719.600.000</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.53%</td>
+            </tr>
         
+            <tr>
+                <td>AAVE</td>
+                <td>Rp 3.605.000</td>
+                <td>Rp 3.575.848</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.81%</td>
+            </tr>
+        
+            <tr>
+                <td>ADA</td>
+                <td>Rp 13.200</td>
+                <td>Rp 13.092</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.82%</td>
+            </tr>
+        
+            <tr>
+                <td>ARB</td>
+                <td>Rp 7.460</td>
+                <td>Rp 7.413</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.63%</td>
+            </tr>
+        
+            <tr>
+                <td>AVAX</td>
+                <td>Rp 406.000</td>
+                <td>Rp 403.069</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.72%</td>
+            </tr>
+        
+            <tr>
+                <td>BCH</td>
+                <td>Rp 6.770.000</td>
+                <td>Rp 6.724.000</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.68%</td>
+            </tr>
+        
+            <tr>
+                <td>BNB</td>
+                <td>Rp 10.820.000</td>
+                <td>Rp 10.714.039</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.98%</td>
+            </tr>
+        
+            <tr>
+                <td>BOME</td>
+                <td>Rp 36</td>
+                <td>Rp 36</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-1.10%</td>
+            </tr>
+        
+            <tr>
+                <td>CYBER</td>
+                <td>Rp 26.500</td>
+                <td>Rp 25.616</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-3.34%</td>
+            </tr>
+        
+            <tr>
+                <td>DOGE</td>
+                <td>Rp 3.830</td>
+                <td>Rp 3.815</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.39%</td>
+            </tr>
+        
+            <tr>
+                <td>DOT</td>
+                <td>Rp 83.500</td>
+                <td>Rp 83.195</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.37%</td>
+            </tr>
+        
+            <tr>
+                <td>ETH</td>
+                <td>Rp 41.070.000</td>
+                <td>Rp 40.877.000</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.47%</td>
+            </tr>
+        
+            <tr>
+                <td>HBAR</td>
+                <td>Rp 3.390</td>
+                <td>Rp 3.384</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.18%</td>
+            </tr>
+        
+            <tr>
+                <td>HOT</td>
+                <td>Rp 19</td>
+                <td>Rp 19</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-3.55%</td>
+            </tr>
+        
+            <tr>
+                <td>LINK</td>
+                <td>Rp 279.000</td>
+                <td>Rp 273.290</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-2.05%</td>
+            </tr>
+        
+            <tr>
+                <td>LTC</td>
+                <td>Rp 1.670.000</td>
+                <td>Rp 1.649.000</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-1.26%</td>
+            </tr>
+        
+            <tr>
+                <td>PEPE</td>
+                <td>Rp 0</td>
+                <td>Rp 0</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.45%</td>
+            </tr>
+        
+            <tr>
+                <td>POL</td>
+                <td>Rp 4.250</td>
+                <td>Rp 4.248</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.05%</td>
+            </tr>
+        
+            <tr>
+                <td>RENDER</td>
+                <td>Rp 86.500</td>
+                <td>Rp 84.767</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-2.00%</td>
+            </tr>
+        
+            <tr>
+                <td>SAND</td>
+                <td>Rp 5.820</td>
+                <td>Rp 5.790</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.52%</td>
+            </tr>
+        
+            <tr>
+                <td>SHIB</td>
+                <td>Rp 0</td>
+                <td>Rp 0</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.04%</td>
+            </tr>
+        
+            <tr>
+                <td>SOL</td>
+                <td>Rp 2.845.000</td>
+                <td>Rp 2.830.004</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.53%</td>
+            </tr>
+        
+            <tr>
+                <td>SUI</td>
+                <td>Rp 65.400</td>
+                <td>Rp 65.145</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.39%</td>
+            </tr>
+        
+            <tr>
+                <td>SUN</td>
+                <td>Rp 315</td>
+                <td>Rp 308</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-2.22%</td>
+            </tr>
+        
+            <tr>
+                <td>SUSHI</td>
+                <td>Rp 13.400</td>
+                <td>Rp 13.003</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-2.96%</td>
+            </tr>
+        
+            <tr>
+                <td>TIA</td>
+                <td>Rp 52.000</td>
+                <td>Rp 51.604</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.76%</td>
+            </tr>
+        
+            <tr>
+                <td>TRX</td>
+                <td>Rp 4.350</td>
+                <td>Rp 4.300</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-1.15%</td>
+            </tr>
+        
+            <tr>
+                <td>UMA</td>
+                <td>Rp 23.000</td>
+                <td>Rp 21.164</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-7.98%</td>
+            </tr>
+        
+            <tr>
+                <td>USDC</td>
+                <td>Rp 16.610</td>
+                <td>Rp 16.453</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.95%</td>
+            </tr>
+        
+            <tr>
+                <td>USDT</td>
+                <td>Rp 16.550</td>
+                <td>Rp 16.515</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.21%</td>
+            </tr>
+        
+            <tr>
+                <td>WIF</td>
+                <td>Rp 14.900</td>
+                <td>Rp 14.815</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.57%</td>
+            </tr>
+        
+            <tr>
+                <td>WLD</td>
+                <td>Rp 20.400</td>
+                <td>Rp 20.475</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Reku, Sell in Indodax</td>
+                <td>0.37%</td>
+            </tr>
+        
+            <tr>
+                <td>XLM</td>
+                <td>Rp 5.070</td>
+                <td>Rp 5.023</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.93%</td>
+            </tr>
+        
+            <tr>
+                <td>XRP</td>
+                <td>Rp 39.050</td>
+                <td>Rp 39.000</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-0.13%</td>
+            </tr>
+        
+            <tr>
+                <td>YFI</td>
+                <td>Rp 104.700.000</td>
+                <td>Rp 102.299.346</td>
+                <td>Rp 15.000</td>
+                <td>10 minutes</td>
+                <td>Buy in Indodax, Sell in Reku</td>
+                <td>-2.29%</td>
+            </tr>
+        
+        </table>
+        <p>&copy; Gunawan Panjaitan</p>
+    </body>
+    </html>
+    
